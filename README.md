@@ -38,5 +38,5 @@ In a project with multiples tests and more reference to Factory, there is thousa
 
 Replacing `"dereuromark/cakephp-fixture-factories": "^1.4",` by `"vierge-noire/cakephp-fixture-factories": "^v3.0",` and updating, fix all the logs.
 
-Using `"dereuromark/cakephp-fixture-factories": "1.3.2",` is OK.
-Using `"dereuromark/cakephp-fixture-factories": "1.4.0",` generate logs.
+* Using `"dereuromark/cakephp-fixture-factories": "1.3.2",` is OK.
+* Using `"dereuromark/cakephp-fixture-factories": "1.4.0",` generate logs.
