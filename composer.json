@@ -16,7 +16,7 @@
         "cakephp/cakephp-codesniffer": "^5.3",
         "cakephp/debug_kit": "^5.2",
         "josegonzalez/dotenv": "^4.0",
-        "vierge-noire/cakephp-fixture-factories": "^v3.0",
+        "dereuromark/cakephp-fixture-factories": "1.4.0",
         "phpunit/phpunit": "^11.5.3 || ^12.1.3 || ^13.0"
     },
     "suggest": {
