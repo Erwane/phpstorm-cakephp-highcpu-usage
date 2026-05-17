@@ -33,3 +33,7 @@ You terminal (the one where you launched phpstorm) should have a lot of lines li
 ```
 
 In a project with multiples tests and more reference to Factory, there is thousands of logs and CPU is too high.
+
+## Fix ?
+
+Replacing `"dereuromark/cakephp-fixture-factories": "^1.4",` by `"vierge-noire/cakephp-fixture-factories": "^v3.0",` and updating, fix all the logs.
