@@ -18,9 +18,15 @@ in a terminal, launch phpstorm with this project dir.
 phpstorm /path/to/this/project/phpstorm-cakephp-highcpu-usage
 ```
 
-open `tests/TestCase/HighCpuTest.php` and open the `GeoDepartmentFactory`
+Opening `tests/TestCase/HighCpuTest.php` and `GeoDepartmentFactory` don't generate anything.
 
-You CLI should have a lot of lines like this :
+Now, update vendors from `composer.json` file.
+```shell
+docker compose exec -w /var/www/html php composer update
+```
+reload files with `ctrl + alt + y` and re-open `tests/TestCase/HighCpuTest.php` and `GeoDepartmentFactory`
+
+You terminal (the one where you launched phpstorm) should have a lot of lines like this :
 
 ```text
 2026-05-17 17:11:57,563 [1919291]   WARN - #c.j.p.l.p.r.t.PhpType - SOE in PhpType.global @ #M#M#C\App\Test\Factory\GeoDepartmentFactory.makeChain.persist|#M#π(#M#C\App\Test\Factory\GeoDepartmentFactory.makeChain).persist|#π(#M#M#C\App\Test\Factory\GeoDepartmentFactory.makeChain.persist)|#π(#M#π(#M#C\App\Test\Factory\GeoDepartmentFactory.makeChain).persist)|?
